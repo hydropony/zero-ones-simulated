@@ -252,7 +252,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 1, z: 0.1}
+  m_Size: {x: 0.35, y: 1, z: 0.35}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &11353526
 MonoBehaviour:
@@ -1625,7 +1625,7 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.1, y: 1, z: 0.1}
+  m_Size: {x: 0.35, y: 1, z: 0.35}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &1713646116
 MonoBehaviour:
@@ -1881,7 +1881,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 964e512fd34904294aaeab54282c2f8f,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 964e512fd34904294aaeab54282c2f8f,
         type: 3}
@@ -1891,7 +1891,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 964e512fd34904294aaeab54282c2f8f,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 964e512fd34904294aaeab54282c2f8f,
         type: 3}
@@ -1922,6 +1922,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_TagString
       value: goal
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 964e512fd34904294aaeab54282c2f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 964e512fd34904294aaeab54282c2f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 964e512fd34904294aaeab54282c2f8f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: 964e512fd34904294aaeab54282c2f8f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
